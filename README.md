@@ -9,5 +9,7 @@ return a response based on the following rules:
 3) Numbers divisible by both become 'foobar'.
 4) Any other number should simply return that number.
 
-`bundle install`
-`rake db:create db:migrate db:test:prepare`
+### Setup
+1. Clone the repo
+1. Install dependencies `bundle install`
+1. Setup DB `rake db:create db:migrate db:test:prepare`
