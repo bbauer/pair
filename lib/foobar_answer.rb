@@ -10,7 +10,7 @@
 # 4) Any other number should simply return that number.
 
 
-class FizzBuzz
+class FooBar
   attr_reader :number
 
   def initialize(number)
@@ -19,10 +19,10 @@ class FizzBuzz
 
   def answer
     return number     if number < 3 && number < 5
-    return 'fizzbuzz' if divisible_by_3? && divisible_by_5?
-    return 'fizz'     if divisible_by_3?
+    return 'foobar' if divisible_by_3? && divisible_by_5?
+    return 'foo'     if divisible_by_3?
     return number     if number < 5
-    return 'buzz'     if divisible_by_5?
+    return 'bar'     if divisible_by_5?
     number
   end
 

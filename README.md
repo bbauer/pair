@@ -1,24 +1,13 @@
-# README
+# FooBar
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+For numbers 1 through 100 FooBar should 
+receive a number as input and then
+return a response based on the following rules:
 
-Things you may want to cover:
+1) Numbers divisible by three are replaced by the word 'foo'
+2) Numbers divisible by five by the word 'bar'.
+3) Numbers divisible by both become 'foobar'.
+4) Any other number should simply return that number.
 
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+`bundle install`
+`rake db:create db:migrate db:test:prepare`

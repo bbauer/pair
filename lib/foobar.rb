@@ -10,7 +10,7 @@
 # 4) Any other number should simply return that number.
 
 
-class FizzBuzz
+class FooBar
   def answer(number)
     answer
   end
